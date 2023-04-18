@@ -1,22 +1,25 @@
 body{
     margin: 0;
     padding: 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 50;
+    box-sizing: border-box;
 }
 nav{
     position: fixed;
     top:0;
     left:0;
     width:100%;
-    height: 100px;
-    padding: 10px 90px;
+    height: 120px;
+    padding: 15px 100px;
     box-sizing: border-box;
     background: rgba(0,0,0,0,0.6);
-    border-bottom: 1px solid #fff;
+    display: flex;
+    justify-content: space-around;
 }
 .logo{
-    padding: 22px 20px;
-    height: 80 px;
+    padding: 28.5px 30px;
+    height: 100 px;
     float: left;
     font-size:24px;
     font-weight: bold;
@@ -25,28 +28,29 @@ nav{
 }
 nav ul{
     list-style: none;
-    float: left;
     margin: 0;
-    padding: 0;
+    padding: 15px 30px;
     display: flex;
+   justify-content: space-evenly;
+   align-items: center;
 }
 nav ul li a{
     line-height:80px;
-    color: #fff;
-    padding: 12px 30px;
+    color: #f0eeff;
+    padding: 7px 30px;
     text-decoration:none;
     font-size: 14px;
-    font-weight:400;
+    font-weight:0;
     text-transform: uppercase;
 }
 nav ul li a:hover{
-    background: rgba(53, 47, 125, 0.7);
+    background: rgba(46, 44, 63, 0.7);
     border-radius: 6px;  
 }
-section{
+main{
     width:100%;
     height:100vh;
-    background-image: url("/images/hb.png");
+    background-image: url("/images/hb1.png");
     background-size: cover;
     background-position: center;
 }

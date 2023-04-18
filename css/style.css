@@ -1,9 +1,10 @@
+
+
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 50;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 nav{
     position: fixed;
@@ -47,26 +48,17 @@ nav ul li a:hover{
     background: rgba(181, 173, 255, 0.363);
     border-radius: 6px;  
 }
-main{
-    width:100%;
-    height:100vh;
-    background-image: url("/images/hb1.png");
-    background-size: cover;
-    background-position: center;  
-    display:flex;
-    border: solid red;
-    align-items: center;
-    justify-items: center;
-}
+/*Text on the home page video*/
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
 
-.heroimg{
-    max-width: 670px;
-    height: auto;
-}
-.content-left{
-    width:30%
-}
-/* Main page video */
+  /* Main page video */
 #myVideo {
     position: fixed;
     right: 0;

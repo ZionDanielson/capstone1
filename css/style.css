@@ -21,7 +21,7 @@ nav{
     padding: 28.5px 30px;
     height: 100 px;
     float: left;
-    font-size:24px;
+    font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
     color:#fff;
@@ -44,7 +44,7 @@ nav ul li a{
     text-transform: uppercase;
 }
 nav ul li a:hover{
-    background: rgba(46, 44, 63, 0.7);
+    background: rgba(181, 173, 255, 0.363);
     border-radius: 6px;  
 }
 main{
@@ -53,4 +53,8 @@ main{
     background-image: url("/images/hb1.png");
     background-size: cover;
     background-position: center;
+    display:flex;
+    border: solid red;
+    align-items: center;
+    justify-items: center;
 }
